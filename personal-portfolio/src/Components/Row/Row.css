@@ -1,0 +1,13 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -8px;
+  width: calc(100% + 16px);
+}
+
+@media (max-width: 768px) {
+  .row {
+    margin: -4px;
+    width: calc(100% + 8px);
+  }
+} 

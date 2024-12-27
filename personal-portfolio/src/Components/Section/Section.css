@@ -1,0 +1,29 @@
+.section {
+  margin: 0 auto;
+}
+
+.section-padding-normal {
+  padding: 40px 20px;
+}
+
+.section-padding-large {
+  padding: 80px 20px;
+}
+
+.section-padding-small {
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .section-padding-normal {
+    padding: 30px 15px;
+  }
+  
+  .section-padding-large {
+    padding: 50px 15px;
+  }
+  
+  .section-padding-small {
+    padding: 15px;
+  }
+} 

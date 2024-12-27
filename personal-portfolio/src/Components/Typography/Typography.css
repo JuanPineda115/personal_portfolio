@@ -1,0 +1,58 @@
+/* Css for classnames title, subtitle, text, link */
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.text {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #333;
+}
+
+.link {
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.caption {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #333;
+}
+
+.label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Text alignment classes */
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-justify {
+    text-align: justify;
+}

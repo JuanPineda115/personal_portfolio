@@ -1,0 +1,27 @@
+.card {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border: 1px solid black;
+}
+
+/* Columnas basadas en un sistema de 12 columnas */
+.col-3 {
+    width: calc(25% - 20px);
+}
+
+.col-4 {
+    width: calc(33.333% - 20px);
+}
+
+.col-6 {
+    width: calc(50% - 20px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .card {
+        width: calc(100% - 20px) !important;
+    }
+}

@@ -1,0 +1,28 @@
+.level-bars{
+    display: flex;
+    gap: 3px;
+    align-items: flex-end;
+    height: 40px;
+}
+
+.level-bar{
+    width: 6px;
+    background-color: #4d4d4d;
+    border-radius: 1px;
+}
+
+.level-bar:nth-child(1) {
+    height: 6px;
+}
+
+.level-bar:nth-child(2) {
+    height: 12px;
+}
+
+.level-bar:nth-child(3) {
+    height: 18px;
+}
+
+.active{
+    background-color: #63ba6a;
+}
